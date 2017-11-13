@@ -1,0 +1,68 @@
+/*financial aid css*/
+#big-title{
+	text-align:center;
+}
+
+#Financial-Aid{
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E7E7E7;
+  border-radius: 10px;
+  text-align: center;
+}
+#Contact-Information{
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E7E7E7;
+  border-radius: 10px;
+  text-align:center;
+}
+
+/*part of the welcome.css file*/
+nav#welcome-nav{
+  text-align: center;
+  background-color: #666;
+  position: relative;
+  top: 0;
+}
+
+nav#welcome-nav ul{
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav#welcome-nav ul li{
+  float: left;
+  text-align: center;
+  margin: 0;
+  width: auto;
+}
+
+nav#welcome-nav ul li a{
+  text-align: center;
+  display: block;
+  padding: 0.375em; 
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Spectral;
+}
