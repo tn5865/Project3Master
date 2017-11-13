@@ -1,0 +1,33 @@
+nav#Man-City{
+  text-align: center;
+  background-color: #666;
+  position: relative;
+  top: 0;
+}
+
+nav#Man-City ul {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav#Man-City ul li {
+  float: left;
+  text-align: center;
+  margin: 0;
+  width: auto;
+}
+
+nav#Man-City ul li a {
+  text-align: center;
+  display: block;
+  padding: 0.375em; 
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Spectral;
+}
