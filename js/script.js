@@ -20,7 +20,7 @@ function check(form) {
   var passwordArray = ("password", "");
   
   if (email.value == "email" && password.value == "password") {
-    window.open('myaccount.html');
+    window.open('welcome.html');
   } 
   else {
     alert('Please enter correct username or password!');
