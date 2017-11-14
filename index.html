@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>myIIT Log-in</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/login.css">
+  <title>myIIT Log-in</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/login.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-    <div id="hawk">
-        <img src="media/iit_logo.jpg" alt="Illinois Institute of Technology">
-    </div>
-    <div id="mainCont">
-        <form action="welcome.html" method="POST">
-            Email Address:
-            <input type="text">
-            <br><br> &nbsp; Password:
-            <input type="password">
-            <br><br>
-            <button>SUBMIT</button>
-        </form>
-        <div id="foot">
-            <p>Need Help? | Forgot Password?</p>
+  <div id="hawk">
+    <img src="media/iit_logo.jpg" alt="Illinois Institute of Technology">
+  </div>
+  <div id="mainCont">
+    <form action="" method="post" id="lgform">
+      <fieldset>
+        <legend>Login</legend>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" required>
         </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+          <label for="submit"></label>
+          <input type="submit" value="Login" id="submit">
+        </div>
+      </fieldset>
+    </form>
+    <div id="foot">
+     <p>Need Help? | Forgot Password?</p>
     </div>
-
+  </div>
 </body>
-
 </html>
