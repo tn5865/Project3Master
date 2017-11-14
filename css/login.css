@@ -2,31 +2,27 @@ form {}
 
 
 #mainCont {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 30%;
-    width: 30%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #E7E7E7;
-    border-radius: 10px;
-    text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E7E7E7;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #hawk {
-    height: 35%;
-    width: 35%;
-    margin: 0 auto;
- 
+  height: 35%;
+  width: 35%;
+  margin: 0 auto;
 }
 
 #foot{
-    
-    margin: 0 auto;
-    
-    
+  margin: 0 auto;   
 }
