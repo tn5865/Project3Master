@@ -167,8 +167,11 @@ textarea {
 /******************************************************/
 body{
   background-image: url("http://s.newsweek.com/sites/www.newsweek.com/files/2016/05/10/citycampusniteshotv550x275.jpg");
- background-size: 100%;
+  background-size: 100%;
+  background-size: cover; 
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 body:before{
@@ -182,27 +185,27 @@ body:before{
 }
 
 #mainCont {
+  display: block;
   background-color: white;
-    position: relative;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 60%;
-    width: 40%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #E7E7E7;
-    border-radius: 10px;
-    margin-top: 5%;
-    text-align: center;
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  width: 40%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E7E7E7;
+  border-radius: 10px;
+  margin-top: 5%;
+  text-align: center;
+  padding-bottom: 2%;
 }
 .emandPass{
-  
   text-align: center;
   padding-top: 10px;
-  
 }
 #subButton{
   text-align: center;
@@ -210,16 +213,16 @@ body:before{
 }
 
 button{
-   border: 2px solid gray;
-    padding: 3px 20px; 
-    background: lightgray;
-    border-radius: 5px;
-    cursor: pointer;
+  border: 2px solid darkgray;
+  padding: 3px 20px; 
+  background: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
 }
 input{
-   border: 1px solid gray;
-   border-radius: 5px;
-   padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 input:hover{
@@ -227,17 +230,51 @@ input:hover{
 }
 
 #hawk {
-    position: relative;
-  
+  position: relative;
 }
 img{
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #foot{
-    
-    margin: 0 auto;
+  margin: 0 auto;
 }
+/***********Media Queries****************/
+@media screen and (min-width: 320px) and (max-width: 960px) {
+    body{
+        max-width: 100%;
+			 display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    body {
+        display: block;
+    }
+}
+/***************/
+@media screen and (max-width: 320px) {
+    body{
+	max-width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 960px) {
+    body{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:620px) {
+  body:before{
+    max-width: 100%;
+		
+  }
+}
+@media only screen and (max-width:620px) {
+   #mainCont{
+    width: 85%;
+    
+  }
+}
+
 
