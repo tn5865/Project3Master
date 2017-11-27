@@ -1,5 +1,7 @@
-var picNum = 0;
+$(function(){
+    var picNum = 0;
 slide();
+                             
 
 
 function slide() {
@@ -15,7 +17,8 @@ function slide() {
     if (picNum > photos.length) {
         picNum = 1
     }
-    photos[1].style.display = "block";
+    photos[picNum - 1].style.display = "block";
     setTimeout(slide, 2000);
 
 }
+});
