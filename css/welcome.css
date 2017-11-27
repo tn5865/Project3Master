@@ -1,10 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#hawk {
+    height: 35%;
+    width: 35%;
+    margin: 0 auto;
+}
 nav#welcome-nav{
   text-align: center;
-  background-color: #666;
+  background-color: #cc0000;
   position: relative;
   top: 0;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0;
 }
-
 nav#welcome-nav ul{
   text-align: center;
   display: inline-block;
@@ -13,21 +24,30 @@ nav#welcome-nav ul{
   padding: 0;
   overflow: hidden;
 }
-
 nav#welcome-nav ul li{
   float: left;
   text-align: center;
   margin: 0;
   width: auto;
 }
-
 nav#welcome-nav ul li a{
   text-align: center;
   display: block;
-  padding: 0.375em; 
+  padding: 1em; 
   font-size: 1em;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-family: Spectral;
+}
+#logoIIT{
+  display: block;
+  background-color: black;
+  padding: 1%;
+}
+.iitImage{
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding-bottom: 3px;
 }
