@@ -1,21 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 /*financial aid css*/
 #big-title{
-	text-align:center;
-}
-
-#Financial-Aid{
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 30%;
-  width: 30%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #E7E7E7;
-  border-radius: 10px;
-  text-align: center;
+  text-align:center;
 }
 #Contact-Information{
   margin: auto;
@@ -31,15 +20,16 @@
   border-radius: 10px;
   text-align:center;
 }
-
 /*part of the welcome.css file*/
 nav#welcome-nav{
   text-align: center;
-  background-color: #666;
+  background-color: #cc0000;
   position: relative;
   top: 0;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0;
 }
-
 nav#welcome-nav ul{
   text-align: center;
   display: inline-block;
@@ -48,21 +38,124 @@ nav#welcome-nav ul{
   padding: 0;
   overflow: hidden;
 }
-
 nav#welcome-nav ul li{
   float: left;
   text-align: center;
   margin: 0;
   width: auto;
 }
-
 nav#welcome-nav ul li a{
   text-align: center;
   display: block;
-  padding: 0.375em; 
+  padding: 1em; 
   font-size: 1em;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-family: Spectral;
+   
+}
+#logoIIT{
+  display: block;
+  background-color: black;
+  padding: 1%;
+}
+.iitImage{
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding-bottom: 3px;
+}
+.footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  left: 0;
+  bottom: 0;
+  margin-top: 70px;
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+img{
+  width: 80px;
+}
+p{
+  text-align: left;
+  padding-left: 25px;
+  margin: 5px;
+}
+h3{
+  text-align: left;
+  padding-left: 25px;
+}
+#FinAid{
+  margin: auto;
+  padding-left: 30px;
+  margin-top: 70px;
+  padding-right: 25px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  width: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 10px;
+  background-color: #404040;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/IIT_Scarlet_Hawks.svg/1144px-IIT_Scarlet_Hawks.svg.png");
+  background-size: 160px ;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  column-count: 2;
+  
+}
+#FinAid::before {
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+}
+a{
+  color: white;
+  text-decoration: none;
+  position: relative; 
+}
+.link1{
+  text-align: center;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
+
+h2{
+  position: relative;
+  color: #cc0000;
+  text-shadow: 2px 2px black;
+}
+
+li a:hover {
+  background-color: #800000;
+   
+}
+li a:active {
+  background-color: #800000;
+}
+.last{
+  padding-bottom: 25px;
+}
+.manAccount{
+  padding-top: 2px;
+  padding-left: 150px;
+}
+.footerText{
+  text-align: center;
 }
