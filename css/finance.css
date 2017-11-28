@@ -1,3 +1,50 @@
+/**********meyer reset*************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, applet, object, iframe,
+h1, h4, h5, h6, blockquote, pre, abbr, acronym, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*****************end of reset*********************/
 body{
   margin: 0;
   padding: 0;
@@ -27,7 +74,7 @@ nav#welcome-nav{
   position: relative;
   top: 0;
   max-width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin: 0;
 }
 nav#welcome-nav ul{
@@ -52,8 +99,7 @@ nav#welcome-nav ul li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Spectral;
-   
+ font-family: 'Lato', sans-serif, arial;/***font stack***/
 }
 #logoIIT{
   display: block;
@@ -158,4 +204,71 @@ li a:active {
 }
 .footerText{
   text-align: center;
+}
+/****************media queries***************/
+@media screen and (min-width: 320px) and (max-width: 960px) {
+    body{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 960px) {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      text-align: center;
+    }
+    li a {
+      display: block;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+    }
+    #FinAid{
+      display: inline-block;
+    }
+    li a:hover {
+      background-color: gray;
+      color: white;
+    }
+ }
+@media only screen and (max-width: 768px) {
+   #FinAid{
+     margin: auto;
+     padding-left: 30px;
+     width: 100%;
+     padding-right: 25px;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left:0;
+     border-style: solid;
+     border-width: 2px;
+     border-color: white;
+     border-radius: 10px;
+     background-color: #404040;
+     background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/IIT_Scarlet_Hawks.svg/1144px-IIT_Scarlet_Hawks.svg.png");
+     background-size: 160px ;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: relative;
+     column-count: 2;
+   }
+   .footer{
+      margin: 0px;
+   }
+   .manAccount{
+      padding-top: 2px;
+      padding-left: 25%;
+   }
+   #FinAid::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.8);
+    }
 }
