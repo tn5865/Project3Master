@@ -18,7 +18,7 @@ function slide() {
         picNum = 1
     }
     photos[picNum - 1].style.display = "block";
-    setTimeout(slide, 2000);
+    setTimeout(slide, 3500);
 
 }
 });
