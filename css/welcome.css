@@ -101,6 +101,14 @@ nav#welcome-nav ul li a{
   margin: auto;
   padding-bottom: 3px;
 }
+#slideShow {
+  /* Main wrapper for all images */
+  width: 670px;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
 /****************media queries***************/
 @media screen and (min-width: 320px) and (max-width: 960px) {
     body{
