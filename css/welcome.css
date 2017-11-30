@@ -102,9 +102,10 @@ nav#welcome-nav ul li a{
   padding-bottom: 3px;
 }
 .content{
-  max-width: 100em;
+  max-width: 61.250em;
   height: auto;
   margin: 1em auto;
+  overflow: hidden;
 }
 #leftcolumn{
 	float: left;
