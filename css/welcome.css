@@ -101,6 +101,19 @@ nav#welcome-nav ul li a{
   margin: auto;
   padding-bottom: 3px;
 }
+.content{
+  max-width: 100em;
+  height: auto;
+  margin: 1em auto;
+}
+#leftcolumn{
+	float: left;
+	width: 30%;
+}
+#rightcolumn{
+	float: right;
+	width: 70%;
+}
 #slideShow {
   /* Main wrapper for all images */
   float: left;
