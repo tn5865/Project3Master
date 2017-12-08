@@ -23,8 +23,7 @@ Master Repository for Project 2 and 3.
   leads! When the project first started, due to also taking a Project Manangement class concurrently, I wanted to try to be the
   psuedo-leader for the group with establishing how we should communicate, when we should meet up, reminders for when things need to be
   done or when they're due, etc. However, after the first meetup session, I felt being a psuedo-leader was an unncessary endeavor on my 
-  part due to the extraordinary effort my group displayed. There was never any communication problems, deadlines were met, input and 
-  ideas were regarding the project were given post-haste, no personality clashes, etc. Although my favorite traits that were flourished 
-  among the group was the need to always contribute more and the capacity to always help each other out. During most of my past
+  part due to the extraordinary effort my group displayed. There was never any major communication problems, deadlines were always met,     input and ideas were regarding the project were given post-haste, no personality clashes, etc. Although my favorite traits that were
+  flourished among the group was the need to always contribute more and the capacity to always help each other out. During most of my past
   group project experiences, working with the other members usually felt more like a chore. This time around, it felt like a group of 
   friends all putting their best foot forward to accomplish a singular goal. 
